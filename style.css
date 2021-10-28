@@ -85,15 +85,15 @@ nav li a.active {
 }
 
 nav ul.artists {
-    opacity: 0;
+    display: none;
 }
 
-nav ul.artists:hover {
+nav ul.artists-hub:hover {
     width: 200px;
-    opacity: 100;
+    display: block;
 }
 
-.artists-hub:hover {
-    
+.artists-hub:hover .artists {
+    display:block;
 }
 
