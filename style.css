@@ -84,6 +84,16 @@ nav li a.active {
     background-color: rgb(12, 128, 56);
 }
 
+nav ul.artists {
+    opacity: 0;
+}
 
+nav ul.artists:hover {
+    width: 200px;
+    opacity: 100;
+}
 
+.artists-hub:hover {
+    
+}
 
