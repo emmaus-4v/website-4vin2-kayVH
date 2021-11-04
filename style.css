@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #35ca49;
+    background-color: #32be40;
     overflow: hidden;
 }
 
@@ -84,16 +84,35 @@ nav li a.active {
     background-color: rgb(12, 128, 56);
 }
 
-nav ul.artists {
+/* https://blog.hubspot.com/website/html-dropdown */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    background-color: #32be40;
+  }
+  .dropdown-content {
     display: none;
-}
-
-nav ul.artists-hub:hover {
-    width: 200px;
+    position: absolute;
+    width: 100%;
+    overflow: visible;
+    box-shadow: 0px 10px 10px 0px rgb(0, 0, 0, 0);
+  }
+  .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
+  .dropdown-content a {
+    display: block;
+    color:  rgb(0, 255, 42);
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+     }
 
-.artists-hub:hover .artists {
-    display:block;
-}
+  .button {
+      height: 47px;
+  }
 
+    
