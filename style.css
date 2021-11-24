@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #003b1d;  
+    background-color: #003b1d; 
     
     color: #fffb00;
     font: Verdana, Arial, Sans-Serif;
@@ -84,6 +84,8 @@ nav li a.active {
     background-color: rgb(12, 128, 56);
 }
 
-.deftones {
-    background-image: deftones.jpg;
+#deftones {
+    background-image: url('afbeeldingen/ohms_deftones.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
