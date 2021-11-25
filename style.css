@@ -1,3 +1,17 @@
+/* Deftones page */
+
+.deftones {
+    background-image: url('afbeeldingen/ohms_deftones.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+body.deftones {
+    color:rgb(255, 0, 0);
+}
+
+
 /* Basislayout */
 
 html, body {
@@ -5,7 +19,7 @@ html, body {
     padding: 0;
     background-color: #003b1d; 
     
-    color: #fffb00;
+    color: #8b8b8b;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +37,7 @@ article {
 
 
 header {
-    color: rgb(0, 150, 0);
+    color: rgb(66, 66, 66);
     text-align: center;
 }
 
@@ -46,7 +60,7 @@ img.zweefLinks {
 }
 
 a {
-    color: rgb(255, 187, 1);
+    color: rgb(192, 192, 190);
     text-decoration: none;
 }
 
@@ -60,7 +74,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #32be40;
+    background-color: #b6b8b6;
     overflow: hidden;
 }
 
@@ -70,22 +84,17 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: rgb(0, 255, 42);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #229e3d;
+    background-color: #3c473f;
 }
 
 nav li a.active {
-    background-color: rgb(12, 128, 56);
+    background-color: rgb(60, 75, 66);
 }
 
-#deftones {
-    background-image: url('afbeeldingen/ohms_deftones.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
