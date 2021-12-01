@@ -1,14 +1,24 @@
 /* Deftones page */
 
 .deftones {
-    background-image: url('afbeeldingen/ohms_deftones.jpg');
+    background-image: url('afbeeldingen/deftones_pony.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
     background-color: black;
+    background-size: 100%; 
 }
 
 body.deftones {
-    color:rgb(255, 0, 0);
+    color:rgb(59, 59, 59);
+}
+
+
+/* Boa page */
+
+.boa {
+    background-image: url('afbeeldingen/boa.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position:center;
 }
 
 
@@ -17,9 +27,9 @@ body.deftones {
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #003b1d; 
+    background-color: #000000; 
     
-    color: #8b8b8b;
+    color: #949494;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -37,7 +47,7 @@ article {
 
 
 header {
-    color: rgb(66, 66, 66);
+    color: rgb(97, 97, 97);
     text-align: center;
 }
 
@@ -60,7 +70,7 @@ img.zweefLinks {
 }
 
 a {
-    color: rgb(192, 192, 190);
+    color: rgb(124, 124, 122);
     text-decoration: none;
 }
 
