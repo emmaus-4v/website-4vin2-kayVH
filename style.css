@@ -3,8 +3,10 @@
 .deftones {
     background-image: url('afbeeldingen/deftones_pony.jpg');
     background-repeat: no-repeat;
-    background-color: black;
-    background-size: 100%; 
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+    margin: 0;
 }
 
 body.deftones {
@@ -17,7 +19,7 @@ body.deftones {
 .boa {
     background-image: url('afbeeldingen/boa.jpg');
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 50%;
     background-position:center;
 }
 
@@ -25,6 +27,37 @@ body.boa {
     color: rgb(241, 241, 241)
 }
 
+
+/* The Cure page */
+
+.cure {
+    background-image: url('afbeeldingen/the_cure.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+    margin: 0%;
+}
+
+body.cure {
+    color:rgb(255, 255, 255);
+}
+
+
+/* A Tribe Called Quest page */
+
+.tribe {
+    background-image: url('afbeeldingen/tribe.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+    margin: 0%;
+}
+
+body.tribe {
+    color:rgb(0, 0, 0);
+}
 
 /* Basislayout */
 
