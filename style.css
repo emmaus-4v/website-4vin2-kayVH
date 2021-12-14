@@ -100,11 +100,17 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 img.zweefRechts {
     float: right;
     margin-left: 15px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .smalltext {
@@ -165,5 +171,16 @@ nav li a.active {
     border-width: 100%;
     overflow: hidden;
     margin-top: 5px;
+    padding-left: 5px;
+}
+
+/* div home pagina */
+
+.textHome {
+    border: 1px solid rgb(241, 241, 241);
+    border-width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    padding-right: 5px;
     padding-left: 5px;
 }
