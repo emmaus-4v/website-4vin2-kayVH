@@ -13,6 +13,9 @@ body.deftones {
     color:rgb(59, 59, 59);
 }
 
+.deftonesh {
+    color: rgn(59, 59, 59);
+}
 
 /* Boa page */
 
@@ -24,9 +27,12 @@ body.deftones {
 }
 
 body.boa {
-    color: rgb(241, 241, 241)
+    color: white;
 }
 
+.boah {
+    color: white;
+}
 
 /* The Cure page */
 
@@ -43,7 +49,9 @@ body.cure {
     color:rgb(255, 255, 255);
 }
 
-
+.cureh {
+    color: white;
+}
 /* A Tribe Called Quest page */
 
 .tribe {
@@ -56,9 +64,32 @@ body.cure {
 }
 
 body.tribe {
+    color:rgb(255, 0, 0);
+}
+
+.tribeh {
+    color: red;
+}
+
+/* Weezer page */
+
+.weezer {
+    background-image: url('afbeeldingen/weezer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+body.weezer {
     color:rgb(0, 0, 0);
 }
 
+.weezerh {
+    color: black;
+}
 /* Basislayout */
 
 html, body {
