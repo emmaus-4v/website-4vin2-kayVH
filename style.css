@@ -34,6 +34,20 @@ body.boa {
     color: white;
 }
 
+.boa_band {
+    float: left;
+    height: 50%;
+    width: 50%;
+    margin-left: 3px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.boa1 {
+    float: right;
+}
+
 /* The Cure page */
 
 .cure {
@@ -142,6 +156,36 @@ img.zweefRechts {
     margin-right: 3px;
     margin-top: 3px;
     margin-bottom: 3px;
+}
+
+.aroundfur {
+    float: left;
+    margin-right: 15px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 320px;
+    width: 320px;
+}
+
+.disintegration {
+    float: right;
+    margin-right: 15px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 320px;
+    width: 320px;
+}
+
+.strato {
+    float: left;
+    margin-right: 15px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 320px;
+    width: 320px;
 }
 
 .smalltext {
