@@ -34,19 +34,6 @@ body.boa {
     color: white;
 }
 
-.boa_band {
-    float: left;
-    height: 50%;
-    width: 50%;
-    margin-left: 3px;
-    margin-right: 15px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-.boa1 {
-    float: right;
-}
 
 /* The Cure page */
 
@@ -60,11 +47,11 @@ body.boa {
 }
 
 body.cure {
-    color:rgb(255, 255, 255);
+    color:#546358;
 }
 
 .cureh {
-    color: white;
+    color: #546358;
 }
 /* A Tribe Called Quest page */
 
@@ -187,6 +174,17 @@ img.zweefRechts {
     height: 320px;
     width: 320px;
 }
+
+.band {
+    float: left;
+    height: 50%;
+    width: 50%;
+    margin-left: 3px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 
 .smalltext {
     font-size: 0.7em;
